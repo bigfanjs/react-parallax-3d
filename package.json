@@ -15,7 +15,11 @@
   ],
   "author": "Adel Jojo <bigfanjs@gmail.com>",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "gsap": "2.0.1",
+    "react": "^16.4.1",
+    "react-titles": "^1.0.2"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.5",
