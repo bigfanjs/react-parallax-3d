@@ -1,5 +1,6 @@
 # react-parallex-3d
 React-parallex-3d provides the ability to show a 3d parallex effect on the given image.
+    *NOTE: this project initially supports google chrome only*
 
 # Usage
 ```js
