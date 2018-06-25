@@ -1,13 +1,13 @@
 # react-parallex-3d
-React-parallex-3d provides the ability to show a 3d parallex effect on the given image.
+React-parallax-3d provides the ability to show a 3d parallax effect on the given image.
     *NOTE: this project initially supports google chrome only*
 
 # Usage
 ```js
 import React, {Component, Fragment} from "react";
-import {Scene} from "react-parallex-3d";
+import {Scene} from "react-parallax-3d";
 
-class Parallex extends Component {
+class Parallax extends Component {
     state = { scene: 0 };
 
     render() {
@@ -36,7 +36,7 @@ class Parallex extends Component {
 ```
 
 # Instalation
-``npm install react-parallex-3d`` or ``yarn add react-parallex-3d``
+``npm install react-parallax-3d`` or ``yarn add react-parallax-3d``
 
 # Component API
 | Name          | Type          | Default      | Description                                          |
@@ -48,4 +48,4 @@ class Parallex extends Component {
 | subTitle      | string        | empty string | A string to be used as subtitle                      |
 
 # License
-``react-parallex-3d`` is under the MIT license.
+``react-parallax-3d`` is under the MIT license.
