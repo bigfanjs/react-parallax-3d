@@ -3,7 +3,7 @@ React-parallax-3d provides the ability to show a 3d parallax effect on the given
 **NOTE: this project initially supports google chrome only**  
 [See a demo](https://bigfanjs.github.io/react-parallax-3d-demo/)  
 
-![2014-10-22 11_35_09](https://media.giphy.com/media/1zlnls15fmk04rFayX/giphy.gif)
+![sample](https://user-images.githubusercontent.com/10690029/41943988-a5790ec2-799d-11e8-870a-342d298b0368.gif)
 
 # Screen cast
 You can still see a video demo even if it didn't work on your web broweser:  
