@@ -26,7 +26,7 @@ class Scene extends Component {
         const { scene, ID, img } = this.props;
         const image = this.img = new Image();
 
-        this.state = { scene, prev: ID === scene - 1 };
+        this.state = { loaded: false, scene, prev: ID === scene - 1 };
 
         this.svgs = [];
         this.images = [];
@@ -127,13 +127,14 @@ class Scene extends Component {
     });
 
     render() {
-        const prev = this.state.prev;
+        const {prev, loaded} = this.state;
         const { ID, img, scene, title, subTitle } = this.props;
         const clipStyle = { clipPath: `url(#${(prev ? "prev" : "curr")}-${ID})` };
 
         if (ID !== scene && ID !== scene - 1) return null;
 
         return (
+            loaded &&
             <div className="scene">
                 <svg width="100%" height="100%" style={{ position: "absolute" }}>
                     <defs>
