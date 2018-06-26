@@ -1,11 +1,14 @@
 # react-parallex-3d
 React-parallax-3d provides the ability to show a 3d parallax effect on the given image.
-    *NOTE: this project initially supports google chrome only*
+    **NOTE: this project initially supports google chrome only**
+    [See a demo](https://bigfanjs.github.io/react-parallax-3d-demo/)
+
+![Alt Text](https://media.giphy.com/media/1zlnls15fmk04rFayX/giphy.gif)
 
 # Usage
 ```js
 import React, {Component, Fragment} from "react";
-import {Scene} from "react-parallax-3d";
+import Scene from "react-parallax-3d";
 
 class Parallax extends Component {
     state = { scene: 0 };
